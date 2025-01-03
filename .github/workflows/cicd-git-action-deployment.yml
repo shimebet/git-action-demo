@@ -45,7 +45,7 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: mule-application
-        path: target/*.zip
+        path: target/*.jar
 
   deploy:
     needs: build
